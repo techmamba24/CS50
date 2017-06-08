@@ -1,0 +1,9 @@
+0.  That is the longest word that is found in an English language dictionary.
+1.  The getrusage function returns a pointer to a struct which stores various usage statistics about the program.
+2.  According to the man page, a variable of type struct rusage has 16 members.
+3.  The before and after variables are passed by reference because the prototype of the calculate function expects pointers.
+    In addition, passing by reference instead of value is more efficient because it does not involve any copying.
+4.  TODO
+5.  The fgetc function is used to read each character one at a time as opposed to the fscanf function to ensure that only alphabetical characters or an apostrophe can be taken in.
+    The fscanf function would read a whole line till reaching a whitespace and would store everything into a buffer despite the contents of the line.
+6.  The parameters of check and load are declared as const as a premptive measure to ensure that whatever is passed into those functions is not altered in any way.

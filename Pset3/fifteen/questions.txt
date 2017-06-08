@@ -1,0 +1,9 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. The framework allows dimensions from 3x3 to 9x9
+1. The game's board is represented by a multidemnsional array.
+2. The greet function is called to greet the player at the start of the game.
+3. We need to implement: init, draw, move and won.

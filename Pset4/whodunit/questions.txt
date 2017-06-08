@@ -1,0 +1,18 @@
+questions.txt
+
+Computer Science 50
+Problem Set 4
+
+1. A header file that specifies exact-width integer types.
+2. We use these different integer types so that we know exactly, and can specify the size of the integer to what we want to be (whehter it be 8 bit or 32 bit and positive or negative).
+3. BYTE = 1Byte, DWORD = 4Bytes, LONG = 4Bytes, WORD=2Bytes
+4. The first two bytes of a BMP in ASCII must be BM,
+5. bfSize is the size of the complete file/bmp inlcuding the image, fileheade and infoheader.
+   biSize is the size of the infoheader itself.
+6. If the biheight is negative then the image is stored top down with the image beginning from the top left corner.
+7. The biBitCount represents the BMP's color depth.
+8. It may return a nullptr if the user puts a non-existent/unsupported file format in the command line, or a file name that the program cannot write to.
+9. Because we always reading one struct at a time. First the fileheader, then the infoheader, and then one rgbtriple at a time.
+10. If bi.width is 3, then line 65 of copy.c will assign the value of 3 to padding.
+11. fseek moves the file position indicator to the desired position.
+12. SEEK_CUR is the current position in the file.
